@@ -1,0 +1,52 @@
+@media (min-width: 720px) and (max-width: 1024px){
+
+	/*
+		=========== menu ===========
+	*/
+	#menu > figure{
+		width: 70px;
+		height: 50px;
+		margin: 5px calc(var(--all-screen) / 10);
+
+	}
+	#menu h1{
+		margin: -1px 50px;
+		font-family: 'Indie Flower', cursive;
+		font-size: 40px;
+	}
+/*
+		===== MAIN - sobre ======
+*/
+	#serviços{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#servicos span{
+		margin-left: 10%;
+	}
+
+	#servicos .icons-servico p{
+		font-size: 20px;
+		line-height: 23px;
+		margin-left: 10%;
+	}
+
+	/*
+		===== MAIN - nosso time ======
+	*/
+	#nosso-time figure img{
+		width: 40%;
+		height: 40%;
+		border-radius: 50%;
+		margin: 0 30%;
+	}
+	#nosso-time h2, h3{
+		text-align: center;
+	}
+	#nosso-time h3{
+		color: #707072;
+		margin-bottom: 10px;
+	}
+}
